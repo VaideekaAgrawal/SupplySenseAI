@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+backend/.env
+chainguard/.env.local
+
+# Build outputs
+chainguard/.next/
+chainguard/out/
+
+# ML artifacts (regenerated at runtime)
+backend/ml/dataset.csv
+backend/ml/model.joblib
+backend/ml/metrics.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Git backup
+.git_backup/
+
+# Large binaries
+*.node
+*.wasm
+
+# Misc
+*.log
+perplexity.txt
+WINNING_PLAN.md
+WINNING_PLAN_v2.md
+changelogs.md
+problem statement.txt
+

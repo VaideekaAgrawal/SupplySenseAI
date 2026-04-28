@@ -1,0 +1,38 @@
+{
+  "name": "supplysense",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.19",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.400.0",
+    "next": "14.2.5",
+    "postcss": "^8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^2.12.7",
+    "swr": "^2.2.5",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
